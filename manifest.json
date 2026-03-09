@@ -1,0 +1,36 @@
+{
+  "name": "Dione OS – Field Notes Edition",
+  "short_name": "Dione OS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#112541",
+  "theme_color": "#112541",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Clarity Mode",
+      "short_name": "Clarity",
+      "description": "Untangle a messy thought",
+      "url": "/?prompt=clarity",
+      "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Decision Mode",
+      "short_name": "Decision",
+      "description": "Compare options",
+      "url": "/?prompt=decision",
+      "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
